@@ -1,0 +1,38 @@
+{
+  "name": "Member",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "follows": {
+      "type": [
+        "Member"
+      ]
+    },
+    "joined": {
+      "type": "date",
+      "required": false
+    },
+    "phone": {
+      "type": "string"
+    },
+    "shortIntroduction": {
+      "type": "string"
+    },
+    "about": {
+      "type": "string"
+    },
+    "websiteUrl": {
+      "type": "string"
+    },
+    "geoLocation": {
+      "type": "GeoLocation"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

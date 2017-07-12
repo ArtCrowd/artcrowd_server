@@ -1,0 +1,19 @@
+{
+  "name": "Funder",
+  "base": "Member",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "vernissageGroup": {
+      "type": [
+        "VernissageGroup"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

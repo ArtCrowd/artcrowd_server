@@ -1,0 +1,23 @@
+{
+  "name": "Artist",
+  "base": "Member",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "degree": {
+      "type": "string"
+    },
+    "yearCompleted": {
+      "type": "date"
+    },
+    "peaceOfStudy": {
+      "type": "GeoLocation"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

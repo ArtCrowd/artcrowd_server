@@ -1,0 +1,127 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db",
+    "public": false
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Member": {
+    "dataSource": "db",
+    "public": false
+  },
+  "GeoLocation": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Category": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Artist": {
+    "dataSource": "db",
+    "public": true
+  },
+  "FundsRecipient": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Funder": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Organization": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Patron": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Collector": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Exhibit": {
+    "dataSource": "db",
+    "public": true
+  },
+  "GroupExhibit": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Project": {
+    "dataSource": "db",
+    "public": true
+  },
+  "AudioVideo": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Work": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Risk": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Challenge": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Need": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Offer": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Reward": {
+    "dataSource": "db",
+    "public": true
+  },
+  "VernissageReward": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Note": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Campaign": {
+    "dataSource": "db",
+    "public": true
+  }
+}

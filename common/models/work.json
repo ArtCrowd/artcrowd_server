@@ -1,0 +1,22 @@
+{
+  "name": "Work",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "caption": {
+      "type": "string"
+    },
+    "audioVideo": {
+      "type": [
+        "AudioVideo"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

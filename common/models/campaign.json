@@ -1,0 +1,91 @@
+{
+  "name": "Campaign",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "campaignStatus": {
+      "type": "CampaignStatus",
+      "required": true
+    },
+    "fundingGoal": {
+      "type": "number",
+      "required": true
+    },
+    "duration": {
+      "type": "date"
+    },
+    "startDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "fundingGoalCurrency": {
+      "type": "string",
+      "required": true,
+      "default": "USD"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "vernissageDate": {
+      "type": "date"
+    },
+    "categories": {
+      "type": [
+        "Category"
+      ]
+    },
+    "risk": {
+      "type": [
+        "Risk"
+      ]
+    },
+    "challenges": {
+      "type": [
+        "Challenge"
+      ]
+    },
+    "needs": {
+      "type": [
+        "Need"
+      ]
+    },
+    "offers": {
+      "type": [
+        "Offer"
+      ]
+    },
+    "rewards": {
+      "type": [
+        "Reward"
+      ]
+    },
+    "notes": {
+      "type": [
+        "Note"
+      ]
+    },
+    "vernissageGroups": {
+      "type": [
+        "VernissageGroup"
+      ]
+    },
+    "funding": {
+      "type": "Funding",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
